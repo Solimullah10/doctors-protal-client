@@ -8,12 +8,12 @@ const Banner = () => {
         <div style={{
             background: `url(${bg})`
         }}
-            class="hero min-h-screen">
-            <div class="hero-content flex-col lg:flex-row-reverse">
-                <img src={chair} class="max-w-sm rounded-lg shadow-2xl" />
+            className="hero min-h-screen">
+            <div className="hero-content flex-col lg:flex-row-reverse">
+                <img src={chair} className="max-w-sm rounded-lg shadow-2xl" />
                 <div>
-                    <h1 class="text-5xl font-bold">Box Office News!</h1>
-                    <p class="py-6">Welcome to Patient Portal, Your Medical Home on the Web
+                    <h1 className="text-5xl font-bold">Box Office News!</h1>
+                    <p className="py-6">Welcome to Patient Portal, Your Medical Home on the Web
                         With Patient Portal, you can connect with your doctor through a convenient, safe and secure environment.</p>
                     <PrimaryButton>Get Started</PrimaryButton>
                 </div>
